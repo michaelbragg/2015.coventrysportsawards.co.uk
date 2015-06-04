@@ -1,0 +1,58 @@
+# _config.yml
+
+# Server Config
+
+safe: true
+
+source: ./web
+destination: ./_site
+safe: true
+
+timezone: Europe/London
+encoding: "utf-8"
+
+future: false
+
+## Collections
+
+collections:
+  awards:
+    output: false
+    permalink: /categories/:path/
+  sponsors:
+    output: true
+    permalink: /sponsors/:path/
+
+## Conversion
+
+markdown: kramdown
+highlighter: pygments
+lsi: false
+excerpt_separator: "\n\n"
+
+## Backwards-compatibility
+
+relative_permalinks: false
+
+# Site Config
+
+name: "Coventry &amp; Warwickshire Sports Awards 2015"
+
+url:
+static: /static
+media: /media
+api:
+
+nominate: true # Bool false = closed | true = open
+
+## Analytics
+
+google_analytics_id:
+google_tag_manager_id:
+
+## Meta
+
+meta:
+  author:
+  description:
+  keywords:

@@ -1,0 +1,7 @@
+<!--  JavaScript Body  -->
+
+<!--  Global/Section JavaScript  -->
+
+{% include templates/analytics.html %}
+<script src="{{ site.static }}/js/global.js"></script>
+{% if page.javascript %}<script src="{{ site.static }}/js/{{ page.javascript }}.js" async></script>{% endif %}

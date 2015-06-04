@@ -1,0 +1,111 @@
+/**
+ * Hero
+ */
+
+.hero {
+  position: relative;
+  margin-bottom: 3em;
+  border-bottom: 1px solid #ccc;
+  background-color: #eef0f3;
+}
+
+.hero__message {
+  display: inline;
+  margin: 0 0 0 0;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2;
+  top: 0.3em;
+  left: 0.5em;
+}
+
+.hero__message, .hero__message > span {
+  background: rgb(169,169,169);
+  padding: 0.25em 0;
+  position: relative;
+  right: 0.5em;
+}
+
+span>span {
+  position: relative;
+  left: 0.25em;
+}
+
+.hero__image {
+  height: 13em;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+}
+
+.hero__sponsor {
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+
+  .hero__image {
+    height: 18.75em;
+  }
+
+    .hero__image img {
+      width: 100%;
+    }
+
+  .hero__sponsor {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 13em; // Parent element - 2em
+    display: flex !important;  // This overrides the grid system
+    align-items: center;
+  }
+
+  .hero__sponsor > p {
+    margin-bottom: 0;
+    padding: 1em;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 6px;
+  }
+
+}
+
+
+/*  Hero Images  */
+
+.hero--image {
+  background-position: center top;
+  background-size: cover;
+}
+
+.hero--image-001 {
+// We use the longhand declaration to stop conflict with `.hero--image`
+  background-image: url(../../media/hero/event_2013_001.jpg);
+}
+
+.hero--image-002 {
+  background-image: url(../../media/hero/2014-community-award.jpg);
+}
+
+.hero--image-003 {
+  background-image: url(../../media/hero/nominate_2015_002.jpg);
+}
+
+.hero--image-004 {
+  background-image: url(../../media/hero/ceremony_2015_001.jpg);
+}
+
+.hero--image-005 {
+  background-image: url(../../media/hero/sponsors_2015_001.jpg);
+}
+
+.hero--image-006 {
+  background-image: url(../../media/hero/contact_2015_001.jpg);
+}
+
+.hero--image-007 {
+  background-image: url(../../media/hero/2014-logo.jpg);
+}

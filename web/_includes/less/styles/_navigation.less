@@ -1,0 +1,76 @@
+/**
+ * Navigation
+ */
+
+.nav__main {
+  font-family: @body__font-family;
+}
+
+.nav__main > ul {
+  clear: both;
+}
+
+@media screen and (min-width: 769px) {
+
+  .nav__main > ul {
+    clear: none;
+  }
+
+}
+
+.nav__main li a {
+  padding: 0 1em;
+  color: @brand--white;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 2rem;
+  letter-spacing: 0.25px;
+}
+
+.nav__main li:hover a,
+.nav__main li:focus a {
+  background-color: @brand--gold;
+  background-image: -moz-linear-gradient(top, @brand--gold 0%, @brand--gold-dark 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@brand--gold), color-stop(100%,@brand--gold-dark)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, @brand--gold 0%,@brand--gold-dark 100%); /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top, @brand--gold 0%,@brand--gold-dark 100%); /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top, @brand--gold 0%,@brand--gold-dark 100%); /* IE10+ */
+  background-image: linear-gradient(to bottom, @brand--gold 0%,@brand--gold-dark 100%); /* W3C */
+  color: @color--primary;
+}
+
+  @media screen and (min-width: 769px) {
+
+    .nav__main li a {
+      padding: 0 1em;
+      text-decoration: none;
+      line-height: 44px;
+      line-height: 2.75rem;
+    }
+
+  }
+
+@media screen and (min-width: 769px) {
+  .nav__main__right {
+    float: right;
+  }
+}
+
+/**
+ *  Navicon
+ */
+
+  .navicon {
+    border: none;
+    background-color: transparent;
+    font-family: @body__font-family;
+    color: @brand--white;
+    line-height: 4rem;
+  }
+
+
+  .navicon__right {
+    float: right;
+    padding-right: 14.5px;
+  }

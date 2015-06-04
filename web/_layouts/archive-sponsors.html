@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article>
+  {{ content }}
+
+{% if site.sponsors %}
+
+  <section>
+
+    <ul class="sponsors list">
+    {% for sponsor in site.sponsors %}
+
+      <li class="block sponsors-item box grid__separator--horizontal">
+        <article itemscope itemtype="http://schema.org/Organization">
+          <h3 class="heading--sub heading--sub--{{ sponsor.level }}"><b><span itemprop="name">{{ sponsor.title }}</span></b>&nbsp;&ndash;&nbsp;{{ sponsor.award }}</h3>
+          <span itemscope itemtype="http://schema.org/Person" itemprop="employee">
+            <aside class="block__aside sponsors-item__aside box grid ss1-ss4 ls1-ls4">
+              {% if sponsor.image %}<img itemprop="image" class="image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.image }}" alt="">{% endif %}
+              {% if sponsor.logo %}<p><a class="outbound link" rel="nofollow" targert="_blank" href="{{ sponsor.link }}">
+                  <img class="image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}">
+                </a></p>{% endif %}
+            </aside>
+            <section class="block__content sponsors-item__content">
+              <blockquote>
+                {{ sponsor.content }}
+                {% if sponsor.name %}<p>- <b itemprop="name">{{ sponsor.name }}</b>{% if sponsor.job %}, <span itemprop="jobTitle">{{ sponsor.job }}</span>{% endif %}</p>{% endif %}
+              </blockquote>
+            </section>
+          </span>
+        </article>
+      </li>
+
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+  </section>
+
+</article>

@@ -1,0 +1,31 @@
+# Coventry Sports Awards 2015
+
+vendor/
+
+##  Site
+
+web/static/css/*.css
+
+## Ruby
+
+.bundle/
+
+##  Jekyll
+
+_site/
+beta/
+2015/
+
+##  NodeJS
+
+node_modules/
+npm-debug.log
+.grunt
+
+## Bower
+
+web/_includes/bower_components/
+
+##  API
+
+api/

@@ -1,0 +1,36 @@
+---
+layout: page
+---
+
+<article>
+
+  <h1 class="heading--main">{{ page.title }}</h1>
+
+  <article class="box">
+  {{ content }}
+  </article>
+
+  {% if site.awards %}
+
+  <ul class="categories list cf">
+    {% for award in site.awards %}
+
+  <li class="block category-item box grid__separator--horizontal">
+    <h3 class="heading--sub heading--sub--{{ award.heading }}">{{ award.title }}</h3>
+    <article class="block__content category-item__content {% if award.sponsor %}ss1-ss4 ls1-ls8{% endif %}">
+      {{ award.content }}
+    </article>
+    {% if award.sponsor %}
+    <aside class="block__aside--right sponsors-item__aside box ss1-ss4 ls9-ls12">
+      <a class="outbound link" href="{{ award.sponsor.link }}">
+        <img class="image__responsive" src="{{ site.media }}/sponsors/{{ award.sponsor.logo }}" alt="{{ award.sponsor.name }}">
+      </a>
+    </aside>
+    {% endif %}
+  </li>
+
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+</article>

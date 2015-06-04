@@ -1,0 +1,40 @@
+<header class="header__main fixed cf">
+  <div class="wrapper__sub">
+
+    <div class="header__brand header__left ls-hidden">
+      <img class="image__responsive" src="{{ site.static }}/gui/logo-small_coventry-sports-awards_2014.svg" alt="Coventry Sports Awards 2015">
+    </div>
+
+    <nav role="navigation" class="nav__main">
+
+      <button role="hidden" id="js-menu__icon" class="navicon navicon__right ls-hidden">Menu</button>
+
+      <ul id="js-nav__main" class="nav__main__right list menu">
+      {% include templates/navigation.html %}
+      </ul>
+
+    </nav>
+
+  </div>
+</header>
+
+{% if page.hero %}
+<section class="hero box wrapper cf">
+
+  <div class="wrapper__sub hero__image hero--image-{{ page.hero.image }}">
+
+  <section class="ss-hidden ms-hidden ls1-ls4">
+      <img class="image__responsive" src="{{ site.static }}/gui/logo_coventry-sports-awards_2014.svg" alt="Coventry Sports Awards 2015">
+  </section>
+
+  <!--<section class="hero__sponsor grid ss1-ss4 ms1-ms6 ls9-ls12">
+    <p><small>Headline Sponsor<br>
+    <a href="#" target="_blank">
+      <img class="image__responsive" src="{{ site.media }}/sponsors/logo_name.svg" alt="">
+    </a></small></p>
+  </section>-->
+
+</div>
+
+</section>
+{% endif %}

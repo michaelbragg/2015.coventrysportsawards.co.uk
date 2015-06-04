@@ -1,0 +1,34 @@
+/**
+ * _block.less
+ */
+/*  --  objects/_block.less  |  v. 0.1.0  --  */
+
+.block {
+  margin-bottom: 1em;
+}
+
+//  Zen Code
+//
+//  div.block>(aside.block__aside)+(block__content)
+//
+
+@media screen and (min-width: 769px) {
+
+  .block, .block__content {
+    overflow: hidden;
+  }
+
+  .block .block__aside {
+    float: left;
+    margin-right: 14.5px;
+  }
+
+  .block .block__aside img {
+    display: block;
+  }
+
+  .block .block__aside--right {
+    float: right;
+  }
+
+}
