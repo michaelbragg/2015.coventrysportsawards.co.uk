@@ -13,7 +13,7 @@ meta:
   author:
 
 hero:
-  image: "002"
+  image: "001"
 
 sponsors: true
 

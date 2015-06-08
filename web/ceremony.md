@@ -13,8 +13,8 @@ meta:
   author:
 
 hero:
-  image: "004"
-  copy: Book Your Table
+  image: "003"
+#  copy: Book Your Table
 #  link: http://www.ctbusinessawards.co.uk/2015/tickets/
 
 partners: true
