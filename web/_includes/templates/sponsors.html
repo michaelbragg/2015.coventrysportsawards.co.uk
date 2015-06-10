@@ -10,11 +10,11 @@
 
       {% for sponsor in site.sponsors %}
 
-        <li class="gallery__item">
+        {% if sponsor.logo %}<li class="gallery__item">
           <a href="{{ site.url }}/sponsors/">
             <img class="image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}">
           </a>
-        </li>
+        </li>{% endif %}
 
       {% endfor %}
 
