@@ -9,7 +9,7 @@ heading: amateur
 
 sponsor:
  name: Coventry City Football Club
- logo: logo_coventry-city.png
+ logo: logo_coventry-city.svg
  link: http://www.ccfc.co.uk/
 
 ---
