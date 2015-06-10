@@ -29,6 +29,9 @@ sitemap:
 <img class="alignright sizemedium" src="{{ site.media }}/sponsors/logo_dallas-burston-polo-club.svg" alt="">
 The&nbsp;2015 Coventry and Warwickshire Sports Awards will culminate in a lavish awards ceremony **at Dallas&nbsp;Burston&nbsp;Polo&nbsp;Club, IXL&nbsp;Events&nbsp;Centre** on **Thursday,&nbsp;8&nbsp;October&nbsp;2015**. Guests&nbsp;will be welcomed to the evening with a Champagne reception before enjoying a&nbsp;fabulous three course gourmet meal in the main&nbsp;banqueting suite. Following&nbsp;this, the&nbsp;friends and family of the finalists are invited to join the evening to watch the ceremony, where&nbsp;the winner of each category will be&nbsp;announced.
 
+<img class="alignright sizemedium" src="{{ site.media }}/sponsors/logo_snowball.svg" alt="">
+The night will raise money for **Grace Research Fund** and **The Snowball Trust**. The Snowball Appeal began in 1985, and since then it has put smiles on the faces on thousands of disabled and seriously-ill children in Coventry and Warwickshire, who were able to secure vital equipment thanks to Snowball Appeal funds. The Trust has raised over two million pounds over the years, all of which has been given to needy children, their schools and their hospitals. Through a small game and silent auction which will take place throughout the evening, we plan to raise much needed funds for these truly worthwhile causes.
+
 <a class="outbound link" rel="nofollow" target="_blank" href="http://champions-speakers.co.uk/"><img class="alignright sizemedium" src="{{ site.media }}/sponsors/logo_champions-after-dinner-speakers.svg" alt="Champions After Dinner Speakers"></a>
 A&nbsp;host of sporting celebrities will attend the evening and will present each award alongside the category&nbsp;sponsor.
 
