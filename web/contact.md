@@ -28,7 +28,9 @@ For more information on the Birmingham Sports Awards 2015 please contact:
 
 ## Champions UK PLC:
 
-Charlotte Best (Project Manager)<br>email: <a class="outbound mail" href="mailto:cbest@championsukplc.com">cbest@championsukplc.com</a><br>tel: <a class="outbound tel" href="tel:08453313031">08453 31 30 31</a>
+Charlotte Best (Awards Manager)<br>email: <a class="outbound mail" href="mailto:cbest@championsukplc.com">cbest@championsukplc.com</a><br>tel: <a class="outbound tel" href="tel:08453313031">08453 31 30 31</a>
+
+Ashleigh Kerr (Project Executive)<br>email: <a class="outbound mail" href="mailto:akerr@championsukplc.com">akerr@championsukplc.com</a><br>tel: <a class="outbound tel" href="tel:08453313031">08453 31 30 31</a>
 
 <a class="outbound link" rel="nofollow" target="_blank" href="http://www.championsukplc.co.uk/">
 <img class="sizemedium" src="{{ site.media }}/sponsors/logo_championsuk.svg" alt="Champions (UK) plc">
