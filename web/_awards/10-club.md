@@ -8,9 +8,9 @@ title: Club of the Year
 heading: other
 
 sponsor:
- name: Emmerson Press
- logo: logo_emmerson-press.svg
- link: http://www.emersonpress.co.uk/
+ name: Inspirational Magazine
+ logo: logo_inspirational-magazine.svg
+ link: http://inspirational.uk.com/
 
 ---
 
