@@ -8,8 +8,8 @@ title: Lifetime Achievement Award
 heading: other
 
 sponsor:
- name: Dallas Burston Polo Club
- logo: logo_dallas-burston-polo-club.svg
+ name: IXL Events Centre, Dallas Burston Polo Club
+ logo: logo_ixl-events.svg
  link: http://dbpoloclub.com/
 
 ---

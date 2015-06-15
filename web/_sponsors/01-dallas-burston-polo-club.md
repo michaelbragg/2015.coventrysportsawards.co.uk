@@ -1,8 +1,8 @@
 ---
-title: Dallas Burston Polo Club
+title: IXL Events Centre, Dallas Burston Polo Club
 award: Lifetime Achievement Award
 level: other
-logo: logo_dallas-burston-polo-club.svg
+logo: logo_ixl-events.svg
 link: http://www.dbpoloclub.com/
 
 #image: profile_richard-carney.jpg
