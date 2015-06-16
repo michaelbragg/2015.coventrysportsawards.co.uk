@@ -17,7 +17,7 @@ layout: default
           <h3 class="heading--sub heading--sub--{{ sponsor.level }}"><b><span itemprop="name">{{ sponsor.title }}</span></b>&nbsp;&ndash;&nbsp;{{ sponsor.award }}</h3>
           <span itemscope itemtype="http://schema.org/Person" itemprop="employee">
             <aside class="block__aside sponsors-item__aside box grid ss1-ss4 ls1-ls4">
-              {% if sponsor.image %}<img itemprop="image" class="image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.image }}" alt="">{% endif %}
+              {% if sponsor.image %}<img itemprop="image" class="image image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.image }}" alt="">{% endif %}
               {% if sponsor.logo %}<p><a class="outbound link" rel="nofollow" targert="_blank" href="{{ sponsor.link }}">
                   <img class="image__responsive" src="{{ site.media }}/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}">
                 </a></p>{% endif %}
