@@ -1,6 +1,6 @@
 ---
 title: Coventry City Football Club
-award: Amateur Sportswoman of the Year
+award:
 level: amateur
 logo: logo_coventry-city.svg
 link: http://www.ccfc.co.uk/

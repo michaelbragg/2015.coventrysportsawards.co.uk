@@ -7,10 +7,10 @@ title: Amateur Sportswoman of the Year
 
 heading: amateur
 
-sponsor:
- name: Coventry City Football Club
- logo: logo_coventry-city.svg
- link: http://www.ccfc.co.uk/
+sponsor: false
+# name: Coventry City Football Club
+# logo: logo_coventry-city.svg
+# link: http://www.ccfc.co.uk/
 
 ---
 
