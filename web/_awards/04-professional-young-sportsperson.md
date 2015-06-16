@@ -7,7 +7,7 @@ title: Professional Young Sportsperson of the Year
 
 heading: pro
 
-sponsor: false
+sponsor:
  name: Inspirational Magazine
  logo: logo_inspirational-magazine.svg
  link: http://inspirational.uk.com/
