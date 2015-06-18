@@ -1,0 +1,74 @@
+# _config.yml
+
+# Server Config
+
+safe: true
+
+source: ./web
+destination: ./_site
+safe: true
+
+timezone: Europe/London
+encoding: "utf-8"
+
+future: false
+
+## Collections
+
+collections:
+  awards:
+    output: false
+    permalink: /categories/:path/
+  sponsors:
+    output: false
+    permalink: /sponsors/:path/
+
+## Conversion
+
+markdown: kramdown
+highlighter: pygments
+lsi: false
+excerpt_separator: "\n\n"
+
+## Backwards-compatibility
+
+relative_permalinks: false
+
+# Site Config
+
+name: "Coventry &amp; Warwickshire Sports Awards 2015"
+
+url: http://www.coventrysportsawards.co.uk/2015
+static: http://www.coventrysportsawards.co.uk/2015/static
+media: http://www.coventrysportsawards.co.uk/2015/media
+api: http://www.coventrysportsawards.co.uk/api
+
+nominate: true # Bool false = closed | true = open
+
+## Analytics
+
+google_analytics_id: UA-37915390-6
+google_tag_manager_id:
+
+## Meta
+
+meta:
+  author: Coventry Telegraph
+  publisher: https://plus.google.com/103544945089638905382
+  description:
+  keywords:
+    - "coventry sports awards"
+    - "coventry sport"
+    - "sports awards"
+    - "sports advertising"
+    - "sports awards 2015"
+    - "coventry"
+    - "coventry sports awards winner"
+    - "how to nominate"
+    - "coventry telegraph"
+    - "coventry times"
+    - "sponsor awards"
+    - "increase publicity"
+  google: https://plus.google.com/103544945089638905382
+  twitter:
+  facebook:
