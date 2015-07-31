@@ -7,10 +7,10 @@ title: Professional Sportsman of the Year
 
 heading: pro
 
-sponsor: false
-# name:
-# logo:
-# link:
+sponsor:
+ name: DSA
+ logo: logo_dsa.svg
+ link: http://www.dsalive.com/
 
 ---
 
