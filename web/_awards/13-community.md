@@ -7,9 +7,10 @@ title: Community Award
 
 heading: other
 
-sponsor: false
-#  name:
-#  image:
+sponsor:
+ name: Inspirational Magazine
+ logo: logo_inspirational-magazine.svg
+ link: http://inspirational.uk.com/
 
 ---
 

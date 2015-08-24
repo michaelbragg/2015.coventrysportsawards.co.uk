@@ -1,7 +1,7 @@
 ---
 title: Sponsorship Available
-award: Community Award
-level: other
+award: Professional Young Sportsperson of the Year
+level: pro
 logo:
 link:
 
