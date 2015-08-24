@@ -2,12 +2,12 @@
 title: DSA
 award: Professional Sportsman of the Year
 level: pro
-logo: logo_dsa.svg
+logo: logo_dsa.png
 link: http://www.dsalive.com/
 
-#image: profile_name.jpg
-#name:
-#job:
+image: profile_emma-lawrence.jpg
+name: Emma Lawrence
+job: Managing Director
 ---
 
 DSA is immensely proud to be supporting this year&rsquo;s Coventry Sports Awards, and in particular the Professional Sportsman of the Year award category.

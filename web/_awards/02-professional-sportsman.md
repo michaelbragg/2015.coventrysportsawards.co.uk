@@ -9,7 +9,7 @@ heading: pro
 
 sponsor:
  name: DSA
- logo: logo_dsa.svg
+ logo: logo_dsa.png
  link: http://www.dsalive.com/
 
 ---
