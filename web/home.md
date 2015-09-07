@@ -32,8 +32,8 @@ The awards presentation dinner, which will take place on Thursday, 8&nbsp;Octobe
 
 To nominate your sporting star please visit our &lsquo;Nominate Now&rsquo; page and fill in the application&nbsp;form.
 
-**Nominations will be closing on Friday, 4&nbsp;September&nbsp;2015.**
+**Nominations have now closed.**
 
-<a href="{{ site.url }}/nominate/" class="btn btn--primary btn__large btn__half" title="Nominate Now">Nominate Now</a>
+
 
 Thank you and good luck!

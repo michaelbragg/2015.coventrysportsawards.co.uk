@@ -43,7 +43,7 @@ static: http://www.coventrysportsawards.co.uk/2015/static
 media: http://www.coventrysportsawards.co.uk/2015/media
 api: http://www.coventrysportsawards.co.uk/api
 
-nominate: true # Bool false = closed | true = open
+nominate: false # Bool false = closed | true = open
 
 ## Analytics
 

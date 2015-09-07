@@ -38,12 +38,12 @@ relative_permalinks: false
 
 name: "Coventry &amp; Warwickshire Sports Awards 2015"
 
-url:
-static: /static
-media: /media
-api:
+url: http://localhost:3000
+static: http://localhost:3000/static
+media: http://localhost:3000/media
+api: http://localhost/coventrysportsawards.co.uk/api
 
-nominate: true # Bool false = closed | true = open
+nominate: false # Bool false = closed | true = open
 
 ## Analytics
 

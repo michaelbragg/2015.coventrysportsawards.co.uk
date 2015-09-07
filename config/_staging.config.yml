@@ -43,7 +43,7 @@ static: /beta/static
 media: /beta/media
 api: /api
 
-nominate: true # Bool false = closed | true = open
+nominate: false # Bool false = closed | true = open
 
 ## Analytics
 
