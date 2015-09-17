@@ -32,6 +32,8 @@ The&nbsp;2015 Coventry and Warwickshire Sports Awards will culminate in a lavish
 <img class="alignright sizemedium" src="{{ site.media }}/sponsors/logo_snowball.svg" alt="">
 The night will raise money for **Grace Research Fund** and **The Snowball Trust**. The Snowball Appeal began in 1985, and since then it has put smiles on the faces on thousands of disabled and seriously-ill children in Coventry and Warwickshire, who were able to secure vital equipment thanks to Snowball Appeal funds. The Trust has raised over two million pounds over the years, all of which has been given to needy children, their schools and their hospitals.
 
+
+<img class="alignright sizemedium" src="{{ site.media }}/sponsors/logo_grace-research-fund.png" alt="">
 The Grace Research Fund raises money to fund medical research into the causes of premature births and the best forms of neonatal care. The fund was set up by Coventry residents Tracy and Simon Hayes in memory of their daughter Grace, who was born 14 weeks early at Walsgrave Hospital. We plan to raise much needed funds for these truly worthwhile causes through a small charity game and silent auction which will take place throughout the evening.
 
 Through a small game and silent auction which will take place throughout the evening, we plan to raise much needed funds for these truly worthwhile causes.
