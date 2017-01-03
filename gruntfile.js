@@ -52,13 +52,13 @@ module.exports = function(grunt) {
 
    ,shell: {
       jekyll_dev: {
-        command: 'jekyll build --config config/_config.yml'
+        command: 'bundle exec jekyll build --config config/_config.yml'
       },
       jekyll_stage: {
-        command: 'jekyll build --destination <%= grunt.config.get("dest") %> --config config/_staging.config.yml'
+        command: 'bundle exec jekyll build --destination <%= grunt.config.get("dest") %> --config config/_staging.config.yml'
       },
       jekyll_deploy: {
-        command: 'jekyll build --destination <%= grunt.config.get("dest") %> --config config/_master.config.yml'
+        command: 'bundle exec jekyll build --destination <%= grunt.config.get("dest") %> --config config/_master.config.yml'
       },
       open: {
         command: 'open ./<%= grunt.config.get("dest") %>'
